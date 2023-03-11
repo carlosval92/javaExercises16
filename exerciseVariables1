@@ -1,0 +1,21 @@
+public class EjerciciodeVariablesJava {
+    
+    public static void main(String[] args) {
+        
+    int numero;
+    numero=12;
+    
+    double EjDouble;
+    EjDouble=20.12;
+    
+    float Darbin;
+    Darbin=120.00;
+    
+    
+    
+            System.out.println("El int es: " + numero);
+            System.out.println("El double es " + EjDouble);
+            System.out.println("El float es " + Darbin);
+    }       
+    
+}
