@@ -1,0 +1,25 @@
+/**
+ *
+ * @author Carlos Valenzuela
+ */
+import java.util.Scanner;
+
+public class Calcular_sueldo {
+    public static void main(String[] args) {
+        
+        Scanner entrada = new Scanner (System.in);
+        
+        int horas;
+        int sueldo;
+        System.out.println("Cuantas horas ha trabajado este mes?: ");
+        horas= entrada.nextInt();
+          
+        sueldo=horas*10;
+                
+        System.out.println("Su sueldo es: " + sueldo);
+                
+                        
+                       
+            }
+    
+}
